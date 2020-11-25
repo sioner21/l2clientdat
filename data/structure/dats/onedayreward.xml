@@ -56,6 +56,37 @@
 			</for>
 		</for>
 	</file>
+	<file pattern="kor_grand_crusade_p3" isSafePackage="true">
+		<!-- updated to protocol 110 by Sioner -->
+		<node name="data" reader="UINT" />
+		<for name="onedayreward" size="#data" hidden="false">
+			<node name="id" reader="UINT" />
+			<node name="reward_id" reader="UINT" />
+			<node name="reward_name" reader="ASCF" />
+			<node name="reward_item" reader="UINT" />
+			<node name="reward_desc" reader="ASCF" />
+			<node name="reward_period" reader="ASCF" />
+			<node name="class_filter" reader="CNTR" />
+			<for name="class_filter" size="#class_filter">
+				<node name="param_class_filter1" reader="UINT" />
+			</for>
+			<node name="reward_type" reader="UINT" />
+			<node name="reward_subtype" reader="UINT" />
+			<node name="min_level_get" reader="UINT" />
+			<node name="min_level_show" reader="UINT" />
+			<node name="max_level" reader="UINT" />
+			<node name="reserved_32" reader="UINT" />
+			<node name="reserved_64" reader="UINT" />
+			<node name="category_count" reader="CNTR" />
+			<for name="category" size="#category_count">
+				<node name="param_category1" reader="UINT" />
+			</for>
+			<for name="reward_item" size="#reward_item">
+				<node name="param_reward_item_id" reader="UINT" />
+				<node name="param_reward_item_count" reader="UINT" />
+			</for>
+		</for>
+	</file>
 	<file pattern="ru_fafurion" isSafePackage="true">
 		<node name="data" reader="UINT" />
 		<for name="onedayreward" size="#data" hidden="false">

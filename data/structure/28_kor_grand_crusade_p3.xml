@@ -104,7 +104,7 @@
 	<link pattern="questname-[\w]+\.dat" file="questname" version="kor_helios" />
 	<link pattern="PawnAnimData.dat" file="pawnanimdata" version="kor_helios_p2" />
 	<link pattern="CombinationItemData.dat" file="combinationitemdata" version="kor_grand_crusade" />
-	<link pattern="OneDayReward-[\w]+\.dat" file="onedayreward" version="en_infinite_odyssey_underground" />
+	<link pattern="OneDayReward-[\w]+\.dat" file="onedayreward" version="kor_grand_crusade_p3" />
 	<!-- Classic -->
 	<link pattern="AdditionalJewelEquipEffect_Classic.dat" file="additionaljewelequipeffect" version="kor_episodion" />
 	<link pattern="AdditionalSoulshotEffect_Classic.dat" file="additionalsoulshoteffect" version="kor_episodion" />
